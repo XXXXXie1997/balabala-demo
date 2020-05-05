@@ -15,9 +15,27 @@ header {
   font-size: 25px;
   margin: auto;
 }
-a {
+
+#button {
   position: absolute;
+  text-decoration: none;
   margin-top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+
+  font-weight: 600;
+  border: 5px solid silver;
+  height: 50px;
+  width: 350px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: gray;
+  color: white;
+}
+#canvas {
+  position: absolute;
+  margin-top: 250px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 30px;
@@ -31,11 +49,22 @@ a {
   background-color: gray;
   color: white;
 }
-
+a:visited {
+  text-decoration: none;
+}
 a:hover {
+  text-decoration: none;
   animation: rua 0.3s;
   animation-fill-mode: forwards;
 }
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
 @keyframes rua {
   100% {
     color: pink;
