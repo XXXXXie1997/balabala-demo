@@ -59,6 +59,7 @@ a:hover {
 }
 a:link {
   text-decoration: none;
+  color: blanchedalmond;
 }
 a:visited {
   text-decoration: none;
